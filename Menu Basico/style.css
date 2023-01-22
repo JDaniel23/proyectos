@@ -1,0 +1,49 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+header{
+    padding:10px;
+    min-height: 70px;
+    display: flex;
+    background-color: #0E1F4B;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+nav a {
+   
+    font-weight:600px;
+    padding-right: 10px;
+
+}
+nav a:hover{
+    color: yellow;
+}
+
+
+@media (max-width:608px){
+header{
+    flex-direction: column;
+}
+
+nav{
+    padding: 10px 0px;
+}
+
+
+}
